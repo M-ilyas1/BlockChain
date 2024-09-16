@@ -3,7 +3,6 @@
 import hashlib
 
 def calculate_sha256(file_path):
-    """Calculate SHA-256 hash of a file."""
     sha256 = hashlib.sha256()
     with open(file_path, "rb") as file:
         while chunk := file.read(8192):
@@ -11,7 +10,7 @@ def calculate_sha256(file_path):
     return sha256.hexdigest()
 
 # Path to the text file
-file_path = "sample.txt"
+file_path = "text.txt"
 
 # Calculate the original file hash
 original_hash = calculate_sha256(file_path)

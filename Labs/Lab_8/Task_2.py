@@ -19,14 +19,14 @@ def merkle_tree_hashes(data_blocks):
 
 # Define eight random strings
 data_blocks = [
-    "Random string 1",
-    "Random string 2",
-    "Random string 3",
-    "Random string 4",
-    "Random string 5",
-    "Random string 6",
-    "Random string 7",
-    "Random string 8"
+    "Muhammad",
+    "Ali",
+    "Fatima",
+    "Hussain",
+    "HUssain",
+    "Zainab",
+    "Kulsoom",
+    "Zahra"
 ]
 
 # Calculate and print the Merkle root

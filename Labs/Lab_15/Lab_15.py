@@ -88,3 +88,15 @@ def main():
 # Call the main function
 if __name__ == "__main__":
     main()
+
+
+
+
+
+# Main Workflow:
+# The script generates a random transaction.
+# It concatenates and hashes the transaction details using SHA-256.
+# A new ECDSA key pair is created.
+# The transaction hash is signed using the ECDSA private key.
+# The signature is verified using the ECDSA public key.
+# The transaction data, signature, and verification result are printed.
