@@ -1,6 +1,6 @@
 # Variables are containers for storing values.
 a = 26
-b = "GBIT"
+b = "BlockChain"
 c = 7.99
 
 # Python identifies data types automatically.
