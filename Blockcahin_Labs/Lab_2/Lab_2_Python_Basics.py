@@ -1,5 +1,5 @@
 # Using Python as a calculator
-result = 8 / 4 + 3  # Division and square root of 9 (which is 3)
+result = 8 / 4 + 3 
 print("Calculator result:", result)
 
 # Variables and Data Types

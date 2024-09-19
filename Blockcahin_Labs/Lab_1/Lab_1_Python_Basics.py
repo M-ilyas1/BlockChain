@@ -1,5 +1,3 @@
-# No module import needed
-
 # Using Python as a calculator
 result = 5 * 2 + 4  # The square root of 16 is 4
 print("The result of the calculation is:", result)  # Output the result
